@@ -23,7 +23,7 @@ Figure 4 shows the average sentiment per day for healthy individuals. The result
 
 ![confusion matrix](https://github.com/SandhyaaGopchandani/DetectingSuicidalPatternsTwitter/blob/master/confusion_matrix.png)
 
-Shown below is the confusion matrix that compares the predicted and test label accuracy in terms of Precision and Recall. The dark blue is true negative that is probability, the model correctly predicting the ’no’ label and bottom value on diagonal marked as 0.46 is true positive rate that is the probability, a model correctly predicted ’yes’ label. Ideally, we want these two probabilities to be 1. So, it is apparent that there is need to improve on the True Positive Rate.
+Shown above is the confusion matrix that compares the predicted and test label accuracy in terms of Precision and Recall. The dark blue is true negative that is probability, the model correctly predicting the ’no’ label and bottom value on diagonal marked as 0.46 is true positive rate that is the probability, a model correctly predicted ’yes’ label. Ideally, we want these two probabilities to be 1. So, it is apparent that there is need to improve on the True Positive Rate.
 
 ![network structure in affected group](https://github.com/SandhyaaGopchandani/DetectingSuicidalPatternsTwitter/blob/master/net_struct_affected_group.png)
 
