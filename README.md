@@ -20,12 +20,12 @@ Figure 3 shows the average sentiment of tweets per over the last 10 days before 
 Figure 4 shows the average sentiment per day for healthy individuals. The results seems to be as expected. The sentiment seems to hint towards randomness or due to chance which it should be. Mood might be one factor behind diﬀerent sentiments for each day but not following an ongoing pattern as it seems to be with the individuals with suicide status.
 
 
-Shown below is the confusion matrix that compares the predicted and test label accuracy in terms of Precision and Recall. The dark blue is true negative that is probability, the model correctly predicting the ’no’ label and bottom value on diagonal marked as 0.46 is true positive rate that is the probability, a model correctly predicted ’yes’ label. Ideally, we want these two probabilities to be 1. So, it is apparent that there is need to improve on the True Positive Rate.
 
 ![confusion matrix](https://github.com/SandhyaaGopchandani/DetectingSuicidalPatternsTwitter/blob/master/confusion_matrix.png)
 
-
-Figure bewlo shows the network structure of aﬀected group. The red colored nodes are the twitter ids of aﬀected individuals and nodes in yellow are the people who they follow. Overall, it seems that this group is inclusive and not very dense, implying that individual who are aﬀected do not form huge networks, but it is hard to say because there are only 4 nodes. This network might not be good representative of overall network structure of aﬀected group.
-
+Shown below is the confusion matrix that compares the predicted and test label accuracy in terms of Precision and Recall. The dark blue is true negative that is probability, the model correctly predicting the ’no’ label and bottom value on diagonal marked as 0.46 is true positive rate that is the probability, a model correctly predicted ’yes’ label. Ideally, we want these two probabilities to be 1. So, it is apparent that there is need to improve on the True Positive Rate.
 
 ![network structure in affected group](https://github.com/SandhyaaGopchandani/DetectingSuicidalPatternsTwitter/blob/master/net_struct_affected_group.png)
+
+
+Figure above shows the network structure of aﬀected group. The red colored nodes are the twitter ids of aﬀected individuals and nodes in yellow are the people who they follow. Overall, it seems that this group is inclusive and not very dense, implying that individual who are aﬀected do not form huge networks, but it is hard to say because there are only 4 nodes. This network might not be good representative of overall network structure of aﬀected group.
