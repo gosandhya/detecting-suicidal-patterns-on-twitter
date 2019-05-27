@@ -30,6 +30,6 @@ Shown above is the confusion matrix that compares the predicted and test label a
 
 Figure above shows the network structure of aﬀected group. The red colored nodes are the twitter ids of aﬀected individuals and nodes in yellow are the people who they follow. Overall, it seems that this group is inclusive and not very dense, implying that individual who are aﬀected do not form huge networks, but it is hard to say because there are only 4 nodes. This network might not be good representative of overall network structure of aﬀected group.
 
-#### notes
+### Additional Notes:
 
 Please refer to jupyter notebook (suicidal_pattern_analysis.ipynb) for the code and the PDF file (article) to read more about the analysis details.
